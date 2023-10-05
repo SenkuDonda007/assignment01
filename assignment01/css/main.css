@@ -1,0 +1,76 @@
+
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style sections */
+section {
+    background-color: rgb(73, 77, 66);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#story {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+p {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+
+#random {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+button:hover {
+    background-color: #555;
+}
+
+
+section h2, section p {
+    text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 10px;
+    }
+}
+
+
